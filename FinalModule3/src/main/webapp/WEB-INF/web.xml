@@ -1,0 +1,42 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>Library Management</display-name>
+
+    <servlet>
+        <servlet-name>BookController</servlet-name>
+        <servlet-class>Controller.BookController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookController</servlet-name>
+        <url-pattern>/BookController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HocSinhController</servlet-name>
+        <servlet-class>Controller.HocSinhController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HocSinhController</servlet-name>
+        <url-pattern>/HocSinhController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MuonSachController</servlet-name>
+        <servlet-class>Controller.MuonSachController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MuonSachController</servlet-name>
+        <url-pattern>/MuonSachController</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+
+
+
+
+
+
